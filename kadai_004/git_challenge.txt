@@ -1,0 +1,13 @@
+nozomi@ochinozomunoMacBook-Air git_challenge % git add hello_world.txt
+nozomi@ochinozomunoMacBook-Air git_challenge % git commit -m "hello_world.txtを追加"
+[main (root-commit) 808db47] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+nozomi@ochinozomunoMacBook-Air git_challenge %  git add .
+nozomi@ochinozomunoMacBook-Air git_challenge % git commit -m "日本語訳を追記"
+[main 4949ee7] 日本語訳を追記
+ 1 file changed, 2 insertions(+)
+nozomi@ochinozomunoMacBook-Air git_challenge % git log --oneline
+4949ee7 (HEAD -> main) 日本語訳を追記
+808db47 hello_world.txtを追加
+nozomi@ochinozomunoMacBook-Air git_challenge % 
